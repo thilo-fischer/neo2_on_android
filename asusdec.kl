@@ -62,7 +62,8 @@ key 39    SEMICOLON
 key 40    APOSTROPHE
 key 41    GRAVE
 key 42    SHIFT_LEFT
-key 43    BACKSLASH
+#key 43    BACKSLASH
+key 43    SHIFT_RIGHT # SYMBOL
 key 44    Z
 key 45    X
 key 46    C
@@ -73,11 +74,12 @@ key 50    M
 key 51    COMMA
 key 52    PERIOD
 key 53    SLASH
-key 54    SHIFT_RIGHT
+key 54    SHIFT_LEFT
 key 55    NUMPAD_MULTIPLY
 key 56    ALT_LEFT
 key 57    SPACE
-key 58    CAPS_LOCK
+#key 58    CAPS_LOCK
+key 58    SHIFT_RIGHT
 key 59    F1
 key 60    F2
 key 61    F3
@@ -105,7 +107,8 @@ key 82    NUMPAD_0
 key 83    NUMPAD_DOT
 # key 84 (undefined)
 key 85    ZENKAKU_HANKAKU
-key 86    BACKSLASH
+#key 86    BACKSLASH
+key 86    FUNCTION
 key 87    F11
 key 88    F12
 key 89    RO
@@ -119,7 +122,8 @@ key 96    ENTER
 key 97    CTRL_RIGHT
 key 98    NUMPAD_DIVIDE
 key 99    SYSRQ
-key 100   ALT_RIGHT
+#key 100   ALT_RIGHT
+key 100   FUNCTION
 # key 101 "KEY_LINEFEED"
 key 102   MOVE_HOME
 key 103   DPAD_UP
@@ -144,9 +148,11 @@ key 121   NUMPAD_COMMA
 key 122   KANA
 key 123   EISU
 key 124   YEN
-key 125   META_LEFT
+#key 125   META_LEFT
+key 125   CAPS_LOCK #ALT_LEFT
 key 126   META_RIGHT
-key 127   MENU              WAKE_DROPPED
+#key 127   MENU              WAKE_DROPPED
+key 127   CAPS_LOCK
 key 128   MEDIA_STOP
 # key 129 "KEY_AGAIN"
 # key 130 "KEY_PROPS"

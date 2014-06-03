@@ -29,7 +29,27 @@ key A {
     #label:                              'U'
     label:                              'A'
     base:                               'u'
-    shift, capslock:                    'U'
+#    shift, capslock:                    'U'
+
+    shift: 't'
+    alt: 'b'
+    ctrl: 'd'
+    meta: 'n'
+    sym: 'Y'
+    fn: 'F'
+    numlock: 'N'
+    capslock: 'L'
+    scrolllock: 'R'
+
+    lshift: 's'
+    lalt: 'a'
+    lctrl: 'c'
+    lmeta: 'm'
+
+    rshift: 'S'
+    ralt: 'A'
+    rctrl: 'C'
+    rmeta: 'M'
 }
 
 #key Z {
@@ -38,6 +58,8 @@ key B {
     label:                              'B'
     base:                               'z'
     shift, capslock:                    'Z'
+#    rshift, scrolllock:                 'x'
+#    fn, numlock:                        'x'
 }
 
 #key C {
@@ -217,13 +239,13 @@ key X {
     shift, capslock:                    'X'
 }
 
-#key Y {
+#key K {
 key Y {
-    #label:                              'Y'
+    #label:                              'K'
     #label:                              'Z'
     label:                              'Y'
-    base:                               'y'
-    shift, capslock:                    'Y'
+    base:                               'k'
+    shift, capslock:                    'K'
 }
 
 #key K {
@@ -343,12 +365,12 @@ key PERIOD {
     shift:                              '>'
 }
 
-#key SLASH {
+#key J {
 key SLASH {
-    #label:                              '/'
+    #label:                              'J'
     label:                              '/'
-    base:                               '/'
-    shift:                              '?'
+    base:                               'j'
+    shift, capslock:                    'J'
 }
 
 #key GRAVE {
@@ -399,20 +421,22 @@ key BACKSLASH {
     shift:                              '|'
 }
 
-#key SEMICOLON {
+#key D {
 key SEMICOLON {
-    #label:                              ';'
+    #label:                              'D'
+    #label:                              'xxx' 
     label:                              ';'
-    base:                               ';'
-    shift:                              ':'
+    base:                               'd'
+    shift, capslock:                    'D'
 }
 
-#key APOSTROPHE {
+#key Y {
 key APOSTROPHE {
-    #label:                              '\''
-    label:                              '\''
-    base:                               '\''
-    shift:                              '"'
+    #label:                              'Y'
+   #label:                              'xxx' 
+   label:                              '\''
+   base:                               'y'
+   shift, capslock:                    'Y'
 }
 
 ### Numeric keypad ###
