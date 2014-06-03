@@ -29,27 +29,31 @@ key A {
     #label:                              'U'
     label:                              'A'
     base:                               'u'
-#    shift, capslock:                    'U'
+    
+    shift, capslock:                    'U'
+    rshift, scrolllock:                 '\\'
+    fn, numlock:                        fallback MOVE_HOME
 
-    shift: 't'
-    alt: 'b'
-    ctrl: 'd'
-    meta: 'n'
-    sym: 'Y'
-    fn: 'F'
-    numlock: 'N'
-    capslock: 'L'
-    scrolllock: 'R'
+#    shift: 't'
+#    alt: 'b'
+#    ctrl: 'd'
+#    meta: 'n'
+#    sym: 'Y'
+#    fn: 'F'
+#    numlock: 'N'
+#    capslock: 'L'
+#    scrolllock: 'R'
+#
+#    lshift: 's'
+#    lalt: 'a'
+#    lctrl: 'c'
+#    lmeta: 'm'
+#
+#    rshift: 'S'
+#    ralt: 'A'
+#    rctrl: 'C'
+#    rmeta: 'M'
 
-    lshift: 's'
-    lalt: 'a'
-    lctrl: 'c'
-    lmeta: 'm'
-
-    rshift: 'S'
-    ralt: 'A'
-    rctrl: 'C'
-    rmeta: 'M'
 }
 
 #key Z {
@@ -68,8 +72,8 @@ key C {
     label:                              'C'
     base:                               'c'
     shift, capslock:                    'C'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '|'
+    fn, numlock:                        fallback INSERT
 }
 
 #key A {
@@ -78,8 +82,8 @@ key D {
     label:                              'D'
     base:                               'a'
     shift, capslock:                    'A'
-    rshift, scrolllock:                 ':'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '{'
+    fn, numlock:                        fallback DPAD_DOWN
 }
 
 #key L {
@@ -88,7 +92,7 @@ key E {
     label:                              'E'
     base:                               'l'
     shift, capslock:                    'L'
-    rshift, scrolllock:                 'x'
+    rshift, scrolllock:                 '['
     fn, numlock:                        fallback DPAD_UP
 }
 
@@ -98,7 +102,7 @@ key F {
     label:                              'F'
     base:                               'e'
     shift, capslock:                    'E'
-    rshift, scrolllock:                 ')'
+    rshift, scrolllock:                 '}'
     fn, numlock:                        fallback DPAD_RIGHT
 }
 
@@ -118,7 +122,7 @@ key H {
     label:                              'H'
     base:                               's'
     shift, capslock:                    'S'
-    rshift, scrolllock:                 'x'
+    rshift, scrolllock:                 '?'
     fn, numlock:                        'x'
 }
 
@@ -129,8 +133,8 @@ key I {
     label:                              'I'
     base:                               'g'
     shift, capslock:                    'G'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '>'
+    fn, numlock:                        '8'
 }
 
 #key N {
@@ -139,8 +143,8 @@ key J {
     label:                              'J'
     base:                               'n'
     shift, capslock:                    'N'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '('
+    fn, numlock:                        '4'
 }
 
 #key R {
@@ -149,8 +153,8 @@ key K {
     label:                              'K'
     base:                               'r'
     shift, capslock:                    'R'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 ')'
+    fn, numlock:                        '5'
 }
 
 #key T {
@@ -159,8 +163,8 @@ key L {
     label:                              'L'
     base:                               't'
     shift, capslock:                    'T'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '-'
+    fn, numlock:                        '6'
 }
 
 # M is the same for Neo and QWERTY
@@ -170,8 +174,8 @@ key M {
     label:                              'M'
     base:                               'm'
     shift, capslock:                    'M'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '%'
+    fn, numlock:                        '1'
 }
 
 #key B {
@@ -180,8 +184,8 @@ key N {
     label:                              'N'
     base:                               'b'
     shift, capslock:                    'B'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '+'
+    fn, numlock:                        ':'
 }
 
 #key F {
@@ -190,8 +194,8 @@ key O {
     label:                              'O'
     base:                               'f'
     shift, capslock:                    'F'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '='
+    fn, numlock:                        '9'
 }
 
 #key Q {
@@ -200,8 +204,8 @@ key P {
     label:                              'P'
     base:                               'q'
     shift, capslock:                    'Q'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '&'
+    fn, numlock:                        '+'
 }
 
 #key X {
@@ -211,7 +215,7 @@ key Q {
     base:                               'x'
     shift, capslock:                    'X'
     rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    fn, numlock:                        fallback PAGE_UP
 }
 
 #key C {
@@ -220,8 +224,8 @@ key R {
     label:                              'R'
     base:                               'c'
     shift, capslock:                    'C'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 ']'
+    fn, numlock:                        fallback FORWARD_DEL
 }
 
 #key I {
@@ -240,8 +244,8 @@ key T {
     label:                              'T'
     base:                               'w'
     shift, capslock:                    'W'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '^'
+    fn, numlock:                        fallback PAGE_DOWN
 }
 
 #key H {
@@ -250,8 +254,8 @@ key U {
     label:                              'U'
     base:                               'h'
     shift, capslock:                    'H'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '<'
+    fn, numlock:                        '7'
 }
 
 #key P {
@@ -260,8 +264,8 @@ key V {
     label:                              'V'
     base:                               'p'
     shift, capslock:                    'P'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '~'
+    fn, numlock:                        '\n'
 }
 
 #key V {
@@ -270,8 +274,8 @@ key W {
     label:                              'W'
     base:                               'v'
     shift, capslock:                    'V'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '_'
+    fn, numlock:                        fallback DEL
 }
 
 #key X {
@@ -280,8 +284,8 @@ key X {
     label:                              'X'
     base:                               'x'
     shift, capslock:                    'X'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '$'
+    fn, numlock:                        '\t'
 }
 
 #key K {
@@ -291,7 +295,7 @@ key Y {
     label:                              'Y'
     base:                               'k'
     shift, capslock:                    'K'
-    rshift, scrolllock:                 'x'
+    rshift, scrolllock:                 '!'
     fn, numlock:                        'x'
 }
 
@@ -302,8 +306,8 @@ key Z {
     label:                              'Z'
     base:                               'k'
     shift, capslock:                    'K'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '#'
+    fn, numlock:                        fallback ESCAPE
 }
 
 key 0 {
@@ -408,10 +412,10 @@ key 9 {
 key SPACE {
     label:                              ' '
     base:                               ' '
-    alt, meta:                          fallback SEARCH
-    ctrl:                               fallback LANGUAGE_SWITCH
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+#    alt, meta:                          fallback SEARCH
+#    ctrl:                               fallback LANGUAGE_SWITCH
+    rshift, scrolllock:                 ' '
+    fn, numlock:                        '0'
 }
 
 key ENTER {
@@ -427,17 +431,17 @@ key TAB {
 key COMMA {
     label:                              ','
     base:                               ','
-    shift:                              '<'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              'x'
+    rshift, scrolllock:                 '"'
+    fn, numlock:                        '2'
 }
 
 key PERIOD {
     label:                              '.'
     base:                               '.'
-    shift:                              '>'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              'x'
+    rshift, scrolllock:                 '\''
+    fn, numlock:                        '3'
 }
 
 #key J {
@@ -446,16 +450,16 @@ key SLASH {
     label:                              '/'
     base:                               'j'
     shift, capslock:                    'J'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 ';'
+    fn, numlock:                        ';'
 }
 
 #key GRAVE {
 key GRAVE {
     #label:                              '`'
     label:                              '`'
-    base:                               '`'
-    shift:                              '~'
+    base:                               'x'
+    shift:                              'x'
     rshift, scrolllock:                 'x'
     fn, numlock:                        'x'
 }
@@ -465,7 +469,7 @@ key MINUS {
     #label:                              '-'
     label:                              '-'
     base:                               '-'
-    shift:                              '_'
+    shift:                              'x'
     rshift, scrolllock:                 'x'
     fn, numlock:                        'x'
 }
@@ -474,8 +478,8 @@ key MINUS {
 key EQUALS {
     #label:                              '='
     label:                              '='
-    base:                               '='
-    shift:                              '+'
+    base:                               'x'
+    shift:                              'x'
     rshift, scrolllock:                 'x'
     fn, numlock:                        'x'
 }
@@ -483,8 +487,8 @@ key EQUALS {
 key LEFT_BRACKET {
     #label:                              '['
     label:                              '['
-    base:                               '['
-    shift:                              '{'
+    base:                               'x'
+    shift:                              'x'
     rshift, scrolllock:                 'x'
     fn, numlock:                        'x'
 }
@@ -492,21 +496,21 @@ key LEFT_BRACKET {
 key RIGHT_BRACKET {
     #label:                              ']'
     label:                              ']'
-    base:                               ']'
-    shift:                              '}'
+    base:                               'x'
+    shift:                              'x'
     rshift, scrolllock:                 'x'
     fn, numlock:                        'x'
 }
 
+##key BACKSLASH {
 #key BACKSLASH {
-key BACKSLASH {
-    #label:                              '\\'
-    label:                              '\\'
-    base:                               '\\'
-    shift:                              '|'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
-}
+#    #label:                              '\\'
+#    label:                              '\\'
+#    base:                               '\\'
+#    shift:                              '|'
+#    rshift, scrolllock:                 'x'
+#    fn, numlock:                        'x'
+#}
 
 #key D {
 key SEMICOLON {
@@ -515,8 +519,8 @@ key SEMICOLON {
     label:                              ';'
     base:                               'd'
     shift, capslock:                    'D'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 ':'
+    fn, numlock:                        ','
 }
 
 #key Y {
@@ -526,8 +530,8 @@ key APOSTROPHE {
     label:                              '\''
     base:                               'y'
     shift, capslock:                    'Y'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '@'
+    fn, numlock:                        '.'
 }
 
 ### Numeric keypad ###
