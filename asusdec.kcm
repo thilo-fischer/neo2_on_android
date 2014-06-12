@@ -34,6 +34,9 @@ key A {
     rshift, scrolllock:                 '\\'
     fn, numlock:                        fallback MOVE_HOME
 
+#
+# handy for testing:
+#
 #    shift: 't'
 #    alt: 'b'
 #    ctrl: 'd'
@@ -53,6 +56,7 @@ key A {
 #    ralt: 'A'
 #    rctrl: 'C'
 #    rmeta: 'M'
+#
 
 }
 
@@ -62,8 +66,8 @@ key B {
     label:                              'B'
     base:                               'z'
     shift, capslock:                    'Z'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '`'
+#    fn, numlock:                        fallback KEY_UNDO
 }
 
 #key A_UMLAUT {
@@ -319,7 +323,6 @@ key 0 {
     fn, numlock:                        'x'
 }
 
-#key 1 {
 key 1 {
     #label:                              '1'
     label:                              '1'
@@ -329,7 +332,6 @@ key 1 {
     fn, numlock:                        'x'
 }
 
-#key 2 {
 key 2 {
     #label:                              '2'
     label:                              '2'
@@ -339,7 +341,6 @@ key 2 {
     fn, numlock:                        'x'
 }
 
-#key 3 {
 key 3 {
     #label:                              '3'
     label:                              '3'
@@ -349,7 +350,6 @@ key 3 {
     fn, numlock:                        'x'
 }
 
-#key 4 {
 key 4 {
     #label:                              '4'
     label:                              '4'
@@ -359,7 +359,6 @@ key 4 {
     fn, numlock:                        'x'
 }
 
-#key 5 {
 key 5 {
     #label:                              '5'
     label:                              '5'
@@ -369,7 +368,6 @@ key 5 {
     fn, numlock:                        'x'
 }
 
-#key 6 {
 key 6 {
     #label:                              '6'
     label:                              '6'
@@ -380,7 +378,6 @@ key 6 {
     fn, numlock:                        'x'
 }
 
-#key 7 {
 key 7 {
     #label:                              '7'
     label:                              '7'
@@ -390,7 +387,6 @@ key 7 {
     fn, numlock:                        'x'
 }
 
-#key 8 {
 key 8 {
     #label:                              '8'
     label:                              '8'
@@ -400,7 +396,6 @@ key 8 {
     fn, numlock:                        'x'
 }
 
-#key 9 {
 key 9 {
     #label:                              '9'
     label:                              '9'
@@ -543,3 +538,44 @@ key ESCAPE {
     alt, meta:                          fallback HOME
     ctrl:                               fallback MENU
 }
+
+key F1 {
+    base:                               fallback WIRELESS
+}
+key F2 {
+    base:                               fallback BLUETOOTH
+}
+key F3 {
+    base:                               fallback TOUCHPAD
+}
+key F4 {
+    base:                               fallback BRIGHTNESS_DOWN
+}
+key F5 {
+    base:                               fallback BRIGHTNESS_UP
+}
+key F6 {
+    base:                               fallback BRIGHTNESS_AUTO
+}
+key F7 {
+    base:                               fallback CAPTURE
+}
+key F8 {
+    base:                               fallback EXPLORER
+}
+key F9 {
+    base:                               fallback SETTINGS
+}
+key F10 {
+    base:                               fallback MEDIA_PREVIOUS
+}
+key F11 {
+    base:                               fallback MEDIA_PLAY_PAUSE
+}
+key F12 {
+    base:                               fallback MEDIA_NEXT
+}
+#VOLUME_DOWN
+#VOLUME_MUTE
+#INSERT
+#FORWARD_DEL

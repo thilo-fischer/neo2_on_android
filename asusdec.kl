@@ -75,7 +75,6 @@ key 51    COMMA
 key 52    PERIOD
 key 53    SLASH
 key 54    SHIFT_LEFT
-key 55    NUMPAD_MULTIPLY
 key 56    ALT_LEFT
 key 57    SPACE
 #key 58    CAPS_LOCK
@@ -92,32 +91,10 @@ key 67    F9
 key 68    F10
 key 69    NUM_LOCK
 key 70    SCROLL_LOCK
-key 71    NUMPAD_7
-key 72    NUMPAD_8
-key 73    NUMPAD_9
-key 74    NUMPAD_SUBTRACT
-key 75    NUMPAD_4
-key 76    NUMPAD_5
-key 77    NUMPAD_6
-key 78    NUMPAD_ADD
-key 79    NUMPAD_1
-key 80    NUMPAD_2
-key 81    NUMPAD_3
-key 82    NUMPAD_0
-key 83    NUMPAD_DOT
-# key 84 (undefined)
-key 85    ZENKAKU_HANKAKU
-#key 86    BACKSLASH
 key 86    FUNCTION
 key 87    F11
 key 88    F12
 key 89    RO
-# key 90 "KEY_KATAKANA"
-# key 91 "KEY_HIRAGANA"
-key 92    HENKAN
-key 93    KATAKANA_HIRAGANA
-key 94    MUHENKAN
-key 95    NUMPAD_COMMA
 key 96    ENTER
 key 97    CTRL_RIGHT
 key 98    NUMPAD_DIVIDE
@@ -144,7 +121,6 @@ key 117   NUMPAD_EQUALS
 # key 118 "KEY_KPPLUSMINUS"
 key 119   BREAK
 # key 120 (undefined)
-key 121   NUMPAD_COMMA
 key 122   KANA
 key 123   EISU
 key 124   YEN
@@ -178,8 +154,6 @@ key 171   MUSIC
 key 172   HOME
 key 177   PAGE_UP
 key 178   PAGE_DOWN
-key 179   NUMPAD_LEFT_PAREN
-key 180   NUMPAD_RIGHT_PAREN
 key 200   MEDIA_PLAY
 key 201   MEDIA_PAUSE
 key 207   MEDIA_PLAY
