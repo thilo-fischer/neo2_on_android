@@ -127,7 +127,7 @@ key H {
     base:                               's'
     shift, capslock:                    'S'
     rshift, scrolllock:                 '?'
-    fn, numlock:                        'x'
+    fn, numlock:                        '\u00bf'
 }
 
 #key G {
@@ -218,7 +218,7 @@ key Q {
     label:                              'Q'
     base:                               'x'
     shift, capslock:                    'X'
-    rshift, scrolllock:                 'x'
+    rshift, scrolllock:                 '\u2026'
     fn, numlock:                        fallback PAGE_UP
 }
 
@@ -270,7 +270,7 @@ key V {
     shift, capslock:                    'P'
     rshift, scrolllock:                 '~'
 #    fn, numlock:                        '\n'
-    fn, numlock:                        fallback ENTER
+    fn, numlock:                        '\n' fallback ENTER
 }
 
 #key V {
@@ -280,7 +280,7 @@ key W {
     base:                               'v'
     shift, capslock:                    'V'
     rshift, scrolllock:                 '_'
-    fn, numlock:                        fallback DEL
+    fn, numlock:                        '\u0008' fallback DEL
 }
 
 #key O_UMLAUT {
@@ -301,7 +301,7 @@ key Y {
     base:                               'k'
     shift, capslock:                    'K'
     rshift, scrolllock:                 '!'
-    fn, numlock:                        'x'
+    fn, numlock:                        '\u00a1'
 }
 
 #key U_UMLAUT {
@@ -312,97 +312,87 @@ key Z {
     base:                               '\u00fc'
     shift, capslock:                    '\u00dc'
     rshift, scrolllock:                 '#'
-    fn, numlock:                        fallback ESCAPE
+    fn, numlock:                        '\u001b' fallback ESCAPE
 }
 
 key 0 {
     label:                              '0'
     base:                               '0'
-    shift:                              ')'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u201d'
+    rshift, scrolllock:                 '\u2019'
+    fn, numlock:                        '*'
 }
 
 key 1 {
-    #label:                              '1'
     label:                              '1'
     base:                               '1'
-    shift:                              '!'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u00b0'
+    rshift, scrolllock:                 '\u00b9'
+    fn, numlock:                        '\u00aa'
 }
 
 key 2 {
-    #label:                              '2'
     label:                              '2'
     base:                               '2'
-    shift:                              '@'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u00a7'
+    rshift, scrolllock:                 '\u00b2'
+    fn, numlock:                        '\u00ba'
 }
 
 key 3 {
-    #label:                              '3'
     label:                              '3'
     base:                               '3'
-    shift:                              '#'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              'x'
+    rshift, scrolllock:                 '\u00b3'
+    fn, numlock:                        '\u2116'
 }
 
 key 4 {
-    #label:                              '4'
     label:                              '4'
     base:                               '4'
-    shift:                              '$'
-    rshift, scrolllock:                 'x'
+    shift:                              '\u00bb'
+    rshift, scrolllock:                 '\u203a'
     fn, numlock:                        'x'
 }
 
 key 5 {
-    #label:                              '5'
     label:                              '5'
     base:                               '5'
-    shift:                              '%'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u00ab'
+    rshift, scrolllock:                 '\u2039'
+    fn, numlock:                        '\u00b7'
 }
 
 key 6 {
-    #label:                              '6'
     label:                              '6'
     base:                               '6'
-    shift:                              '^'
-    alt+shift:                          '\u0302'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '$'
+    rshift, scrolllock:                 '\u00a2'
+    fn, numlock:                        '\u00a3'
 }
 
 key 7 {
-    #label:                              '7'
     label:                              '7'
     base:                               '7'
-    shift:                              '&'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u20ac'
+    rshift, scrolllock:                 '\u00a5'
+    fn, numlock:                        '\u00a4'
 }
 
 key 8 {
-    #label:                              '8'
     label:                              '8'
     base:                               '8'
-    shift:                              '*'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u201e'
+    rshift, scrolllock:                 '\u201a'
+    fn, numlock:                        '\t'
 }
 
 key 9 {
-    #label:                              '9'
     label:                              '9'
     base:                               '9'
-    shift:                              '('
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    shift:                              '\u201c'
+    rshift, scrolllock:                 '\u2018'
+    fn, numlock:                        '/'
 }
 
 key SPACE {
@@ -427,7 +417,7 @@ key TAB {
 key COMMA {
     label:                              ','
     base:                               ','
-    shift:                              'x'
+    shift:                              '\u2013'
     rshift, scrolllock:                 '"'
     fn, numlock:                        '2'
 }
@@ -435,7 +425,7 @@ key COMMA {
 key PERIOD {
     label:                              '.'
     base:                               '.'
-    shift:                              'x'
+    shift:                              '\u2022'
     rshift, scrolllock:                 '\''
     fn, numlock:                        '3'
 }
@@ -450,14 +440,14 @@ key SLASH {
     fn, numlock:                        ';'
 }
 
-#key GRAVE {
+#key CIRCUMFLEX_ACCENT {
 key GRAVE {
     #label:                              '`'
     label:                              '`'
-    base:                               'x'
-    shift:                              'x'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    base:                               '\u005e'
+    shift:                              '\u02c7'
+    rshift, scrolllock:                 '\u21bb'
+    fn, numlock:                        '\u02d9'
 }
 
 #key MINUS {
@@ -465,19 +455,19 @@ key MINUS {
     #label:                              '-'
     label:                              '-'
     base:                               '-'
-    shift:                              'x'
+    shift:                              '\u2014'
     rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    fn, numlock:                        '-'
 }
 
-#key EQUALS {
+#key GRAVE_ACCENT {
 key EQUALS {
     #label:                              '='
     label:                              '='
-    base:                               'x'
-    shift:                              'x'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    base:                               '\u0060'
+    shift:                              '\u00b8'
+    rshift, scrolllock:                 '\u00b0'
+    fn, numlock:                        '\u00a8'
 }
 
 # key ESZETT {
@@ -486,17 +476,19 @@ key LEFT_BRACKET {
     label:                              '['
     base:                               '\u00df'
     shift:                              '\u1e9e'
-    rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    rshift, scrolllock:                 '\u017f'
+    fn, numlock:                        '\u2212'
 }
 
+# key ACUTE_ACCENT
 key RIGHT_BRACKET {
     #label:                              ']'
     label:                              ']'
-    base:                               'x'
-    shift:                              'x'
+    base:                               '\u00b4'
+    # correct?
+    shift:                              '\u007e'
     rshift, scrolllock:                 'x'
-    fn, numlock:                        'x'
+    fn, numlock:                        '\u02dd'
 }
 
 ##key BACKSLASH {
