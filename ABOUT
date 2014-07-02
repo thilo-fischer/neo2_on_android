@@ -1,0 +1,39 @@
+These Android keyboard configuration files can be used to make your hardware keyboard act similar to what you get form the Neo2 keyboard layout (currently layer 1--4 only).
+
+Setup
+
+The files contained here shall act as the key layout file and key character map file for the hardware keyboard where you want the Neo2 layout to work on. See .... for further details.
+
+For me using Android 4.2 on a Asus Transformer Pad TF300T, a shell and busybox, this was something like:
+$ su -
+## My /system/bin/mount does not support `-o remount', so I use mount command from busybox.
+# busybox mount -o remount,rw /system
+# cp -ai /system/usr/keylayout/asusdec.kl /system/usr/keychars/asusdec.kcm backup-directory/
+# cp asusdec_neo2.kl  /system/usr/keylayout/asusdec.kl
+# cp asusdec_neo2.kcm /system/usr/keychars/asusdec.kcm
+
+Make sure to replace the correct files, those that apply to your specific hardware keyboard.
+
+After changing these keyboard configuration files, you need to reconnect your keyboard to make those changes apply. (I read somewhere on the internet you would need to reboot. It was never necessary in my case, but give it a try in case reconnecting the keyboard does not work for you.)
+
+
+Adaption
+
+You will probably need to adapt the config files, esp. the .kl file, to your keyboard if it is something different than the Asus Transformer Pad TF300T mobile docking. Refer to the links to ... .android. ... given above.
+
+I based my file on the generic keyboard config files that came with my Android device and that are meant for US English keyboards. So all of the key positions and key names from the .kl file refer to the US English keyboard layout.
+
+
+Open Points, Todos, Known Issues
+
+The configuration works reasonably well, but is far from being accurate. Not (yet) supported features of Neo2:
+
+- Enter and Tab from Layer 4 does not work properly with every app.
+- Backspace from Layer 4 does not work properly with most apps.
+- Not yet supported (and the feature which I want to get fixed the most): Layer 4 Escape, cursor keys, Pos1/End, PageUp/PageDown, Forward Delete, Insert
+- Locking of modifier keys
+- Layer 5 and 6
+- Funktion keys not yet handled properly (but not for technical reasons, simply lack of time and uncertaincy, what "proporly" would actually mean here).
+
+If seems to me the configuration itself would be a bit more robust and more flexible if it would make use of the meta and/or the symbol modifiers instead of rshift and maybe also instead of fn. I failed using the meta modifier as it always invoked some app on my system when pressing a key with the meta modifier active. The symbol modifier is mentioned in the ...., but I could not produce a valid configuration when using it and also did not find any example of someone else using it.
+
