@@ -20,7 +20,8 @@
 # Desiged for and tested with ASUS Transformer Pad TF300T with Android 4.2.
 #
 
-key 1     ESCAPE
+# not applicable to Asus Tranformer Pad TF300T Mobile Docking keyboard
+#key 1     ESCAPE
 key 2     1
 key 3     2
 key 4     3
@@ -62,6 +63,7 @@ key 39    SEMICOLON
 key 40    APOSTROPHE
 key 41    GRAVE
 key 42    SHIFT_LEFT
+# Use SHIFT_RIGHT as Neo2 Mod3 xxx No destinction in left xxx right modifier keys xxx (TODO xxx use SYMBOL instead)
 #key 43    BACKSLASH
 key 43    SHIFT_RIGHT # SYMBOL
 key 44    Z
@@ -74,26 +76,44 @@ key 50    M
 key 51    COMMA
 key 52    PERIOD
 key 53    SLASH
+# Use SHIFT_RIGHT as Neo2 Mod3 xxx use SHIFT_LEFT as Mod2 (Shift)
+#key 54    SHIFT_RIGHT
 key 54    SHIFT_LEFT
-key 56    ALT_LEFT
+# not applicable to Asus Tranformer Pad TF300T Mobile Docking keyboard
+#key 56    ALT_LEFT
+# Use SEARCH for ALT_LEFT
+key 217   ALT_LEFT
 key 57    SPACE
 #key 58    CAPS_LOCK
 key 58    SHIFT_RIGHT
-key 59    F1
-key 60    F2
-key 61    F3
-key 62    F4
-key 63    F5
-key 64    F6
-key 65    F7
-key 66    F8
-key 67    F9
-key 68    F10
+# not applicable to Asus Tranformer Pad TF300T Mobile Docking keyboard
+#key 59    F1
+#key 60    F2
+#key 61    F3
+#key 62    F4
+#key 63    F5
+#key 64    F6
+#key 65    F7
+#key 66    F8
+#key 67    F9
+#key 68    F10
 key 69    NUM_LOCK
 key 70    SCROLL_LOCK
 key 86    FUNCTION
-key 87    F11
-key 88    F12
+#key 87    F11
+#key 88    F12
+key 238   F1
+key 237   F2
+key 60    F3
+key 224   F4
+key 225   F5
+key 61    F6
+key 212   F7
+key 150   F8
+key 62    F9
+key 165   F10
+key 164   F11
+key 163   F12
 key 89    RO
 key 96    ENTER
 key 97    CTRL_RIGHT
@@ -113,6 +133,9 @@ key 109   PAGE_DOWN
 key 110   INSERT
 key 111   FORWARD_DEL
 # key 112 "KEY_MACRO"
+#key 113   VOLUME_MUTE
+#key 114   VOLUME_DOWN
+#key 115   VOLUME_UP
 key 113   VOLUME_MUTE
 key 114   VOLUME_DOWN
 key 115   VOLUME_UP
@@ -132,13 +155,16 @@ key 127   CAPS_LOCK
 key 128   MEDIA_STOP
 key 139   MENU              WAKE_DROPPED
 key 140   CALCULATOR
-key 142   POWER             WAKE
+#key 142   POWER             WAKE
+# Use SLEEP as FORWARD_DEL
+key 142   FORWARD_DEL
 key 143   POWER             WAKE
 key 150   EXPLORER
 key 152   POWER             WAKE
 key 155   ENVELOPE
 key 156   BOOKMARK
-key 158   BACK              WAKE_DROPPED
+#key 158   BACK              WAKE_DROPPED
+key 158   ESCAPE
 key 159   FORWARD
 key 160   MEDIA_CLOSE
 key 161   MEDIA_EJECT
