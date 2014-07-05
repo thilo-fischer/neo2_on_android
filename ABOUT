@@ -28,9 +28,9 @@ Open Points, Todos, Known Issues
 
 The configuration works reasonably well, but is far from being accurate. Not (yet) supported features of Neo2:
 
-- Enter and Tab from Layer 4 does not work properly with every app.
-- Backspace from Layer 4 does not work properly with most apps.
-- Not yet supported (and the feature which I want to get fixed the most): Layer 4 Escape, cursor keys, Pos1/End, PageUp/PageDown, Forward Delete, Insert
+x Enter and Tab from Layer 4 works properly with many, but not with every app.
+x Backspace from Layer 4 does not work properly with most apps.
+x Not yet supported (and the feature which I want to get fixed the most): Layer 4 Escape, cursor keys, Pos1/End, PageUp/PageDown, Forward Delete, Insert
 - Locking of modifier keys
 - Layer 5 and 6
 - Funktion keys not yet handled properly (but not for technical reasons, simply lack of time and uncertaincy, what "proporly" would actually mean here).

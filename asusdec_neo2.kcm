@@ -269,8 +269,8 @@ key V {
     base:                               'p'
     shift, capslock:                    'P'
     rshift, scrolllock:                 '~'
-#    fn, numlock:                        '\n'
-    fn, numlock:                        '\n' fallback ENTER
+    fn, numlock:                        '\n'
+#    fn, numlock:                        '\n' fallback ENTER
 }
 
 #key V {
@@ -280,7 +280,8 @@ key W {
     base:                               'v'
     shift, capslock:                    'V'
     rshift, scrolllock:                 '_'
-    fn, numlock:                        '\u0008' fallback DEL
+#    fn, numlock:                        '\u0008' fallback DEL
+    fn, numlock:                        fallback DEL
 }
 
 #key O_UMLAUT {
