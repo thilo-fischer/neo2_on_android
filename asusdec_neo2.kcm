@@ -24,8 +24,8 @@ type FULL
 
 ### Basic QWERTY keys ###
 
-#key U {
-key A {
+key U {
+#key A {
     #label:                              'U'
     label:                              'A'
     base:                               'u'
@@ -60,8 +60,8 @@ key A {
 
 }
 
-#key Z {
-key B {
+key Z {
+#key B {
     #label:                              'Z'
     label:                              'B'
     base:                               'z'
@@ -70,8 +70,8 @@ key B {
 #    fn, numlock:                        fallback KEY_UNDO
 }
 
-#key A_UMLAUT {
-key C {
+key A_UMLAUT {
+#key C {
     #label:                              '\u00c4'
     label:                              'C'
     base:                               '\u00e4'
@@ -80,8 +80,8 @@ key C {
     fn, numlock:                        fallback INSERT
 }
 
-#key A {
-key D {
+key A {
+#key D {
     #label:                              'A'
     label:                              'D'
     base:                               'a'
@@ -90,8 +90,8 @@ key D {
     fn, numlock:                        fallback DPAD_DOWN
 }
 
-#key L {
-key E {
+key L {
+#key E {
     #label:                              'L'
     label:                              'E'
     base:                               'l'
@@ -100,8 +100,8 @@ key E {
     fn, numlock:                        fallback DPAD_UP
 }
 
-#key E {
-key F {
+key E {
+#key F {
     #label:                              'E'
     label:                              'F'
     base:                               'e'
@@ -110,8 +110,8 @@ key F {
     fn, numlock:                        fallback DPAD_RIGHT
 }
 
-#key O {
-key G {
+key O {
+#key G {
     #label:                              'O'
     label:                              'G'
     base:                               'o'
@@ -120,8 +120,8 @@ key G {
     fn, numlock:                        fallback MOVE_END
 }
 
-#key S {
-key H {
+key S {
+#key H {
     #label:                              'S'
     label:                              'H'
     base:                               's'
@@ -130,8 +130,8 @@ key H {
     fn, numlock:                        '\u00bf'
 }
 
-#key G {
-key I {
+key G {
+#key I {
     #label:                              'G'
 
     label:                              'I'
@@ -141,8 +141,8 @@ key I {
     fn, numlock:                        '8'
 }
 
-#key N {
-key J {
+key N {
+#key J {
     #label:                              'N'
     label:                              'J'
     base:                               'n'
@@ -151,8 +151,8 @@ key J {
     fn, numlock:                        '4'
 }
 
-#key R {
-key K {
+key R {
+#key K {
     #label:                              'R'
     label:                              'K'
     base:                               'r'
@@ -161,8 +161,8 @@ key K {
     fn, numlock:                        '5'
 }
 
-#key T {
-key L {
+key T {
+#key L {
     #label:                              'T'
     label:                              'L'
     base:                               't'
@@ -172,9 +172,7 @@ key L {
 }
 
 # M is the same for Neo and QWERTY
-#key M {
 key M {
-    #label:                              'M'
     label:                              'M'
     base:                               'm'
     shift, capslock:                    'M'
@@ -182,8 +180,8 @@ key M {
     fn, numlock:                        '1'
 }
 
-#key B {
-key N {
+key B {
+#key N {
     #label:                              'B'
     label:                              'N'
     base:                               'b'
@@ -192,8 +190,8 @@ key N {
     fn, numlock:                        ':'
 }
 
-#key F {
-key O {
+key F {
+#key O {
     #label:                              'F'
     label:                              'O'
     base:                               'f'
@@ -202,8 +200,8 @@ key O {
     fn, numlock:                        '9'
 }
 
-#key Q {
-key P {
+key Q {
+#key P {
     #label:                              'Q'
     label:                              'P'
     base:                               'q'
@@ -212,8 +210,8 @@ key P {
     fn, numlock:                        '+'
 }
 
-#key X {
-key Q {
+key X {
+#key Q {
     #label:                              'X'
     label:                              'Q'
     base:                               'x'
@@ -222,8 +220,8 @@ key Q {
     fn, numlock:                        fallback PAGE_UP
 }
 
-#key C {
-key R {
+key C {
+#key R {
     #label:                              'C'
     label:                              'R'
     base:                               'c'
@@ -232,8 +230,8 @@ key R {
     fn, numlock:                        fallback FORWARD_DEL
 }
 
-#key I {
-key S {
+key I {
+#key S {
     #label:                              'I'
     label:                              'S'
     base:                               'i'
@@ -242,8 +240,8 @@ key S {
     fn, numlock:                        fallback DPAD_LEFT
 }
 
-#key W {
-key T {
+key W {
+#key T {
     #label:                              'W'
     label:                              'T'
     base:                               'w'
@@ -252,8 +250,8 @@ key T {
     fn, numlock:                        fallback PAGE_DOWN
 }
 
-#key H {
-key U {
+key H {
+#key U {
     #label:                              'H'
     label:                              'U'
     base:                               'h'
@@ -262,8 +260,8 @@ key U {
     fn, numlock:                        '7'
 }
 
-#key P {
-key V {
+key P {
+#key V {
     #label:                              'P'
     label:                              'V'
     base:                               'p'
@@ -273,8 +271,8 @@ key V {
 #    fn, numlock:                        '\n' fallback ENTER
 }
 
-#key V {
-key W {
+key V {
+#key W {
     #label:                              'V'
     label:                              'W'
     base:                               'v'
@@ -284,8 +282,8 @@ key W {
     fn, numlock:                        fallback DEL
 }
 
-#key O_UMLAUT {
-key X {
+key O_UMLAUT {
+#key X {
     #label:                              '\u00d6'
     label:                              'X'
     base:                               '\u00f6'
@@ -294,8 +292,8 @@ key X {
     fn, numlock:                        '\t'
 }
 
-#key K {
-key Y {
+key K {
+#key Y {
     #label:                              'K'
     #label:                              'Z'
     label:                              'Y'
@@ -305,8 +303,8 @@ key Y {
     fn, numlock:                        '\u00a1'
 }
 
-#key U_UMLAUT {
-key Z {
+key U_UMLAUT {
+#key Z {
     #label:                              '\u00dc'
     #label:                              'Y'
     label:                              'Z'
@@ -431,8 +429,8 @@ key PERIOD {
     fn, numlock:                        '3'
 }
 
-#key J {
-key SLASH {
+key J {
+#key SLASH {
     #label:                              'J'
     label:                              '/'
     base:                               'j'
@@ -441,8 +439,8 @@ key SLASH {
     fn, numlock:                        ';'
 }
 
-#key CIRCUMFLEX_ACCENT {
-key GRAVE {
+key CIRCUMFLEX_ACCENT {
+#key GRAVE {
     #label:                              '`'
     label:                              '`'
     base:                               '\u005e'
@@ -451,8 +449,8 @@ key GRAVE {
     fn, numlock:                        '\u02d9'
 }
 
-#key MINUS {
 key MINUS {
+#key MINUS {
     #label:                              '-'
     label:                              '-'
     base:                               '-'
@@ -461,8 +459,8 @@ key MINUS {
     fn, numlock:                        '-'
 }
 
-#key GRAVE_ACCENT {
-key EQUALS {
+key GRAVE_ACCENT {
+#key EQUALS {
     #label:                              '='
     label:                              '='
     base:                               '\u0060'
@@ -471,8 +469,8 @@ key EQUALS {
     fn, numlock:                        '\u00a8'
 }
 
-# key ESZETT {
-key LEFT_BRACKET {
+key ESZETT {
+#key LEFT_BRACKET {
     #label:                              '\u00df'
     label:                              '['
     base:                               '\u00df'
@@ -481,8 +479,8 @@ key LEFT_BRACKET {
     fn, numlock:                        '\u2212'
 }
 
-# key ACUTE_ACCENT
-key RIGHT_BRACKET {
+key ACUTE_ACCENT
+#key RIGHT_BRACKET {
     #label:                              ']'
     label:                              ']'
     base:                               '\u00b4'
@@ -492,7 +490,6 @@ key RIGHT_BRACKET {
     fn, numlock:                        '\u02dd'
 }
 
-##key BACKSLASH {
 #key BACKSLASH {
 #    #label:                              '\\'
 #    label:                              '\\'
@@ -502,8 +499,8 @@ key RIGHT_BRACKET {
 #    fn, numlock:                        'x'
 #}
 
-#key D {
-key SEMICOLON {
+key D {
+#key SEMICOLON {
     #label:                              'D'
     #label:                              'xxx' 
     label:                              ';'
@@ -513,8 +510,8 @@ key SEMICOLON {
     fn, numlock:                        ','
 }
 
-#key Y {
-key APOSTROPHE {
+key Y {
+#key APOSTROPHE {
     #label:                              'Y'
     #label:                              'xxx' 
     label:                              '\''
