@@ -33,7 +33,7 @@ key 9     8
 key 10    9
 key 11    0
 key 12    MINUS
-key 13    GRAVE_ACCENT
+key 13    GRAVE
 key 14    DEL
 key 15    TAB
 key 16    X
@@ -46,8 +46,8 @@ key 22    H
 key 23    G
 key 24    F
 key 25    Q
-key 26    ESZETT
-key 27    ACUTE_ACCENT
+#key 26    ESZETT
+#key 27    ACUTE_ACCENT
 key 28    ENTER
 key 29    CTRL_LEFT
 key 30    U
@@ -61,14 +61,14 @@ key 37    R
 key 38    T
 key 39    D
 key 40    Y
-key 41    CIRCUMFLEX_ACCENT
+#key 41    CIRCUMFLEX_ACCENT
 key 42    SHIFT_LEFT
 # Use SHIFT_RIGHT as Neo2 Mod3 xxx No destinction in left xxx right modifier keys xxx (TODO xxx use SYMBOL instead)
 #key 43    BACKSLASH
 key 43    SHIFT_RIGHT # SYMBOL
-key 44    U_UMLAUT
-key 45    O_UMLAUT
-key 46    A_UMLAUT
+#key 44    U_UMLAUT
+#key 45    O_UMLAUT
+#key 46    A_UMLAUT
 key 47    P
 key 48    Z
 key 49    B

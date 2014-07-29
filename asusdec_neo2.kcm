@@ -70,7 +70,8 @@ key Z {
 #    fn, numlock:                        fallback KEY_UNDO
 }
 
-key A_UMLAUT {
+key BUTTON_1 {
+#key A_UMLAUT {
 #key C {
     #label:                              '\u00c4'
     label:                              'C'
@@ -282,7 +283,8 @@ key V {
     fn, numlock:                        fallback DEL
 }
 
-key O_UMLAUT {
+key BUTTON_2 {
+#key O_UMLAUT {
 #key X {
     #label:                              '\u00d6'
     label:                              'X'
@@ -303,7 +305,8 @@ key K {
     fn, numlock:                        '\u00a1'
 }
 
-key U_UMLAUT {
+key BUTTON_3 {
+#key U_UMLAUT {
 #key Z {
     #label:                              '\u00dc'
     #label:                              'Y'
@@ -439,7 +442,8 @@ key J {
     fn, numlock:                        ';'
 }
 
-key CIRCUMFLEX_ACCENT {
+key BUTTON_4 {
+#key CIRCUMFLEX_ACCENT {
 #key GRAVE {
     #label:                              '`'
     label:                              '`'
@@ -459,7 +463,7 @@ key MINUS {
     fn, numlock:                        '-'
 }
 
-key GRAVE_ACCENT {
+key GRAVE {
 #key EQUALS {
     #label:                              '='
     label:                              '='
@@ -469,7 +473,8 @@ key GRAVE_ACCENT {
     fn, numlock:                        '\u00a8'
 }
 
-key ESZETT {
+key BUTTON_5 {
+#key ESZETT {
 #key LEFT_BRACKET {
     #label:                              '\u00df'
     label:                              '['
@@ -479,7 +484,8 @@ key ESZETT {
     fn, numlock:                        '\u2212'
 }
 
-key ACUTE_ACCENT
+key BUTTON_6 {
+#key ACUTE_ACCENT
 #key RIGHT_BRACKET {
     #label:                              ']'
     label:                              ']'
