@@ -46,8 +46,11 @@ key 22    H
 key 23    G
 key 24    F
 key 25    Q
+# TODO
 #key 26    ESZETT
 #key 27    ACUTE_ACCENT
+key 26 BUTTON_15
+key 27 BUTTON_16
 key 28    ENTER
 key 29    CTRL_LEFT
 key 30    U
@@ -61,14 +64,20 @@ key 37    R
 key 38    T
 key 39    D
 key 40    Y
+# TODO
 #key 41    CIRCUMFLEX_ACCENT
+key 41 BUTTON_14
 key 42    SHIFT_LEFT
 # Use SHIFT_RIGHT as Neo2 Mod3 xxx No destinction in left xxx right modifier keys xxx (TODO xxx use SYMBOL instead)
 #key 43    BACKSLASH
 key 43    SHIFT_RIGHT # SYMBOL
+# TODO
 #key 44    U_UMLAUT
 #key 45    O_UMLAUT
 #key 46    A_UMLAUT
+key 44 BUTTON_13
+key 45 BUTTON_12
+key 46 BUTTON_11
 key 47    P
 key 48    Z
 key 49    B
