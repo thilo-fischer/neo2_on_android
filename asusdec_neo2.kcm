@@ -70,7 +70,7 @@ key Z {
 #    fn, numlock:                        fallback KEY_UNDO
 }
 
-key KANA {
+key BUTTON_11 {
 #key A_UMLAUT {
 #key C {
     #label:                              '\u00c4'
@@ -283,7 +283,7 @@ key V {
     fn, numlock:                        fallback DEL
 }
 
-key EISU {
+key BUTTON_12 {
 #key O_UMLAUT {
 #key X {
     #label:                              '\u00d6'
@@ -305,7 +305,7 @@ key K {
     fn, numlock:                        '\u00a1'
 }
 
-key YEN {
+key BUTTON_13 {
 #key U_UMLAUT {
 #key Z {
     #label:                              '\u00dc'
@@ -442,7 +442,7 @@ key J {
     fn, numlock:                        ';'
 }
 
-key HENKAN {
+key BUTTON_14 {
 #key CIRCUMFLEX_ACCENT {
 #key GRAVE {
     #label:                              '`'
@@ -473,7 +473,7 @@ key GRAVE {
     fn, numlock:                        '\u00a8'
 }
 
-key KATAKANA_HIRAGANA {
+key BUTTON_15 {
 #key ESZETT {
 #key LEFT_BRACKET {
     #label:                              '\u00df'
@@ -484,7 +484,7 @@ key KATAKANA_HIRAGANA {
     fn, numlock:                        '\u2212'
 }
 
-key MUHENKAN {
+key BUTTON_16 {
 #key ACUTE_ACCENT
 #key RIGHT_BRACKET {
     #label:                              ']'
