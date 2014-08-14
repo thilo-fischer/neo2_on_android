@@ -1,0 +1,580 @@
+# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2014 Thilo Fischer
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# Key layout file to use the Neo2 ergonomic keyboard layout with "regular" keyboards.
+#
+# (Developed for and tested originally with Microsoft Natural Ergonomic Keyboard 4000.)
+#
+# This is yet only a pretty quick adaption of the layout I created for Asus Transformer keyboards.
+# All basic keys work, but e.g. function keys (F1..F12) and any special keys will probably not work.
+# TODO: Merge back stuff from Android's original Generic.k* files to get these things straight. 
+#
+
+type FULL
+
+### Basic QWERTY keys ###
+
+key U {
+#key A {
+    #label:                              'U'
+    label:                              'A'
+    base:                               'u'
+    
+    shift, capslock:                    'U'
+    rshift, scrolllock:                 '\\'
+    fn, numlock:                        fallback MOVE_HOME
+
+#
+# handy for testing:
+#
+#    shift: 't'
+#    alt: 'b'
+#    ctrl: 'd'
+#    meta: 'n'
+#    sym: 'Y'
+#    fn: 'F'
+#    numlock: 'N'
+#    capslock: 'L'
+#    scrolllock: 'R'
+#
+#    lshift: 's'
+#    lalt: 'a'
+#    lctrl: 'c'
+#    lmeta: 'm'
+#
+#    rshift: 'S'
+#    ralt: 'A'
+#    rctrl: 'C'
+#    rmeta: 'M'
+#
+
+}
+
+key Z {
+#key B {
+    #label:                              'Z'
+    label:                              'B'
+    base:                               'z'
+    shift, capslock:                    'Z'
+    rshift, scrolllock:                 '`'
+#    fn, numlock:                        fallback KEY_UNDO
+}
+
+key BUTTON_11 {
+#key A_UMLAUT {
+#key C {
+    #label:                              '\u00c4'
+    label:                              'C'
+    base:                               '\u00e4'
+    shift, capslock:                    '\u00c4'
+    rshift, scrolllock:                 '|'
+    fn, numlock:                        fallback INSERT
+}
+
+key A {
+#key D {
+    #label:                              'A'
+    label:                              'D'
+    base:                               'a'
+    shift, capslock:                    'A'
+    rshift, scrolllock:                 '{'
+    fn, numlock:                        fallback DPAD_DOWN
+}
+
+key L {
+#key E {
+    #label:                              'L'
+    label:                              'E'
+    base:                               'l'
+    shift, capslock:                    'L'
+    rshift, scrolllock:                 '['
+    fn, numlock:                        fallback DPAD_UP
+}
+
+key E {
+#key F {
+    #label:                              'E'
+    label:                              'F'
+    base:                               'e'
+    shift, capslock:                    'E'
+    rshift, scrolllock:                 '}'
+    fn, numlock:                        fallback DPAD_RIGHT
+}
+
+key O {
+#key G {
+    #label:                              'O'
+    label:                              'G'
+    base:                               'o'
+    shift, capslock:                    'O'
+    rshift, scrolllock:                 '*'
+    fn, numlock:                        fallback MOVE_END
+}
+
+key S {
+#key H {
+    #label:                              'S'
+    label:                              'H'
+    base:                               's'
+    shift, capslock:                    'S'
+    rshift, scrolllock:                 '?'
+    fn, numlock:                        '\u00bf'
+}
+
+key G {
+#key I {
+    #label:                              'G'
+
+    label:                              'I'
+    base:                               'g'
+    shift, capslock:                    'G'
+    rshift, scrolllock:                 '>'
+    fn, numlock:                        '8'
+}
+
+key N {
+#key J {
+    #label:                              'N'
+    label:                              'J'
+    base:                               'n'
+    shift, capslock:                    'N'
+    rshift, scrolllock:                 '('
+    fn, numlock:                        '4'
+}
+
+key R {
+#key K {
+    #label:                              'R'
+    label:                              'K'
+    base:                               'r'
+    shift, capslock:                    'R'
+    rshift, scrolllock:                 ')'
+    fn, numlock:                        '5'
+}
+
+key T {
+#key L {
+    #label:                              'T'
+    label:                              'L'
+    base:                               't'
+    shift, capslock:                    'T'
+    rshift, scrolllock:                 '-'
+    fn, numlock:                        '6'
+}
+
+# M is the same for Neo and QWERTY
+key M {
+    label:                              'M'
+    base:                               'm'
+    shift, capslock:                    'M'
+    rshift, scrolllock:                 '%'
+    fn, numlock:                        '1'
+}
+
+key B {
+#key N {
+    #label:                              'B'
+    label:                              'N'
+    base:                               'b'
+    shift, capslock:                    'B'
+    rshift, scrolllock:                 '+'
+    fn, numlock:                        ':'
+}
+
+key F {
+#key O {
+    #label:                              'F'
+    label:                              'O'
+    base:                               'f'
+    shift, capslock:                    'F'
+    rshift, scrolllock:                 '='
+    fn, numlock:                        '9'
+}
+
+key Q {
+#key P {
+    #label:                              'Q'
+    label:                              'P'
+    base:                               'q'
+    shift, capslock:                    'Q'
+    rshift, scrolllock:                 '&'
+    fn, numlock:                        '+'
+}
+
+key X {
+#key Q {
+    #label:                              'X'
+    label:                              'Q'
+    base:                               'x'
+    shift, capslock:                    'X'
+    rshift, scrolllock:                 '\u2026'
+    fn, numlock:                        fallback PAGE_UP
+}
+
+key C {
+#key R {
+    #label:                              'C'
+    label:                              'R'
+    base:                               'c'
+    shift, capslock:                    'C'
+    rshift, scrolllock:                 ']'
+    fn, numlock:                        fallback FORWARD_DEL
+}
+
+key I {
+#key S {
+    #label:                              'I'
+    label:                              'S'
+    base:                               'i'
+    shift, capslock:                    'I'
+    rshift, scrolllock:                 '/'
+    fn, numlock:                        fallback DPAD_LEFT
+}
+
+key W {
+#key T {
+    #label:                              'W'
+    label:                              'T'
+    base:                               'w'
+    shift, capslock:                    'W'
+    rshift, scrolllock:                 '^'
+    fn, numlock:                        fallback PAGE_DOWN
+}
+
+key H {
+#key U {
+    #label:                              'H'
+    label:                              'U'
+    base:                               'h'
+    shift, capslock:                    'H'
+    rshift, scrolllock:                 '<'
+    fn, numlock:                        '7'
+}
+
+key P {
+#key V {
+    #label:                              'P'
+    label:                              'V'
+    base:                               'p'
+    shift, capslock:                    'P'
+    rshift, scrolllock:                 '~'
+    fn, numlock:                        '\n'
+#    fn, numlock:                        '\n' fallback ENTER
+}
+
+key V {
+#key W {
+    #label:                              'V'
+    label:                              'W'
+    base:                               'v'
+    shift, capslock:                    'V'
+    rshift, scrolllock:                 '_'
+#    fn, numlock:                        '\u0008' fallback DEL
+    fn, numlock:                        fallback DEL
+}
+
+key BUTTON_12 {
+#key O_UMLAUT {
+#key X {
+    #label:                              '\u00d6'
+    label:                              'X'
+    base:                               '\u00f6'
+    shift, capslock:                    '\u00d6'
+    rshift, scrolllock:                 '$'
+    fn, numlock:                        '\t'
+}
+
+key K {
+#key Y {
+    #label:                              'K'
+    #label:                              'Z'
+    label:                              'Y'
+    base:                               'k'
+    shift, capslock:                    'K'
+    rshift, scrolllock:                 '!'
+    fn, numlock:                        '\u00a1'
+}
+
+key BUTTON_13 {
+#key U_UMLAUT {
+#key Z {
+    #label:                              '\u00dc'
+    #label:                              'Y'
+    label:                              'Z'
+    base:                               '\u00fc'
+    shift, capslock:                    '\u00dc'
+    rshift, scrolllock:                 '#'
+    fn, numlock:                        '\u001b' fallback ESCAPE
+}
+
+key 0 {
+    label:                              '0'
+    base:                               '0'
+    shift:                              '\u201d'
+    rshift, scrolllock:                 '\u2019'
+    fn, numlock:                        '*'
+}
+
+key 1 {
+    label:                              '1'
+    base:                               '1'
+    shift:                              '\u00b0'
+    rshift, scrolllock:                 '\u00b9'
+    fn, numlock:                        '\u00aa'
+}
+
+key 2 {
+    label:                              '2'
+    base:                               '2'
+    shift:                              '\u00a7'
+    rshift, scrolllock:                 '\u00b2'
+    fn, numlock:                        '\u00ba'
+}
+
+key 3 {
+    label:                              '3'
+    base:                               '3'
+    shift:                              'x'
+    rshift, scrolllock:                 '\u00b3'
+    fn, numlock:                        '\u2116'
+}
+
+key 4 {
+    label:                              '4'
+    base:                               '4'
+    shift:                              '\u00bb'
+    rshift, scrolllock:                 '\u203a'
+    fn, numlock:                        'x'
+}
+
+key 5 {
+    label:                              '5'
+    base:                               '5'
+    shift:                              '\u00ab'
+    rshift, scrolllock:                 '\u2039'
+    fn, numlock:                        '\u00b7'
+}
+
+key 6 {
+    label:                              '6'
+    base:                               '6'
+    shift:                              '$'
+    rshift, scrolllock:                 '\u00a2'
+    fn, numlock:                        '\u00a3'
+}
+
+key 7 {
+    label:                              '7'
+    base:                               '7'
+    shift:                              '\u20ac'
+    rshift, scrolllock:                 '\u00a5'
+    fn, numlock:                        '\u00a4'
+}
+
+key 8 {
+    label:                              '8'
+    base:                               '8'
+    shift:                              '\u201e'
+    rshift, scrolllock:                 '\u201a'
+    fn, numlock:                        '\t'
+}
+
+key 9 {
+    label:                              '9'
+    base:                               '9'
+    shift:                              '\u201c'
+    rshift, scrolllock:                 '\u2018'
+    fn, numlock:                        '/'
+}
+
+key SPACE {
+    label:                              ' '
+    base:                               ' '
+#    alt, meta:                          fallback SEARCH
+#    ctrl:                               fallback LANGUAGE_SWITCH
+    rshift, scrolllock:                 ' '
+    fn, numlock:                        '0'
+}
+
+key ENTER {
+    label:                              '\n'
+    base:                               '\n'
+}
+
+key TAB {
+    label:                              '\t'
+    base:                               '\t'
+}
+
+key COMMA {
+    label:                              ','
+    base:                               ','
+    shift:                              '\u2013'
+    rshift, scrolllock:                 '"'
+    fn, numlock:                        '2'
+}
+
+key PERIOD {
+    label:                              '.'
+    base:                               '.'
+    shift:                              '\u2022'
+    rshift, scrolllock:                 '\''
+    fn, numlock:                        '3'
+}
+
+key J {
+#key SLASH {
+    #label:                              'J'
+    label:                              '/'
+    base:                               'j'
+    shift, capslock:                    'J'
+    rshift, scrolllock:                 ';'
+    fn, numlock:                        ';'
+}
+
+key BUTTON_14 {
+#key CIRCUMFLEX_ACCENT {
+#key GRAVE {
+    #label:                              '`'
+    label:                              '`'
+    base:                               '\u005e'
+    shift:                              '\u02c7'
+    rshift, scrolllock:                 '\u21bb'
+    fn, numlock:                        '\u02d9'
+}
+
+key MINUS {
+#key MINUS {
+    #label:                              '-'
+    label:                              '-'
+    base:                               '-'
+    shift:                              '\u2014'
+    rshift, scrolllock:                 'x'
+    fn, numlock:                        '-'
+}
+
+key GRAVE {
+#key EQUALS {
+    #label:                              '='
+    label:                              '='
+    base:                               '\u0060'
+    shift:                              '\u00b8'
+    rshift, scrolllock:                 '\u00b0'
+    fn, numlock:                        '\u00a8'
+}
+
+key BUTTON_15 {
+#key ESZETT {
+#key LEFT_BRACKET {
+    #label:                              '\u00df'
+    label:                              '['
+    base:                               '\u00df'
+    shift:                              '\u1e9e'
+    rshift, scrolllock:                 '\u017f'
+    fn, numlock:                        '\u2212'
+}
+
+key BUTTON_16 {
+#key ACUTE_ACCENT
+#key RIGHT_BRACKET {
+    #label:                              ']'
+    label:                              ']'
+    base:                               '\u00b4'
+    # correct?
+    shift:                              '\u007e'
+    rshift, scrolllock:                 'x'
+    fn, numlock:                        '\u02dd'
+}
+
+#key BACKSLASH {
+#    #label:                              '\\'
+#    label:                              '\\'
+#    base:                               '\\'
+#    shift:                              '|'
+#    rshift, scrolllock:                 'x'
+#    fn, numlock:                        'x'
+#}
+
+key D {
+#key SEMICOLON {
+    #label:                              'D'
+    #label:                              'xxx' 
+    label:                              ';'
+    base:                               'd'
+    shift, capslock:                    'D'
+    rshift, scrolllock:                 ':'
+    fn, numlock:                        ','
+}
+
+key Y {
+#key APOSTROPHE {
+    #label:                              'Y'
+    #label:                              'xxx' 
+    label:                              '\''
+    base:                               'y'
+    shift, capslock:                    'Y'
+    rshift, scrolllock:                 '@'
+    fn, numlock:                        '.'
+}
+
+### Non-printing keys ###
+
+key ESCAPE {
+    base:                               fallback BACK
+    alt, meta:                          fallback HOME
+    ctrl:                               fallback MENU
+}
+
+key F1 {
+    base:                               fallback WIRELESS
+}
+key F2 {
+    base:                               fallback BLUETOOTH
+}
+key F3 {
+    base:                               fallback TOUCHPAD
+}
+key F4 {
+    base:                               fallback BRIGHTNESS_DOWN
+}
+key F5 {
+    base:                               fallback BRIGHTNESS_UP
+}
+key F6 {
+    base:                               fallback BRIGHTNESS_AUTO
+}
+key F7 {
+    base:                               fallback CAPTURE
+}
+key F8 {
+    base:                               fallback EXPLORER
+}
+key F9 {
+    base:                               fallback SETTINGS
+}
+key F10 {
+    base:                               fallback MEDIA_PREVIOUS
+}
+key F11 {
+    base:                               fallback MEDIA_PLAY_PAUSE
+}
+key F12 {
+    base:                               fallback MEDIA_NEXT
+}
+#VOLUME_DOWN
+#VOLUME_MUTE
+#INSERT
+#FORWARD_DEL

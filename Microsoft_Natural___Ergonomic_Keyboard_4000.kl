@@ -1,0 +1,201 @@
+# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2014 Thilo Fischer
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# Key layout file to use the Neo2 ergonomic keyboard layout with "regular" keyboards.
+#
+# (Developed for and tested originally with Microsoft Natural Ergonomic Keyboard 4000.)
+#
+# This is yet only a pretty quick adaption of the layout I created for Asus Transformer keyboards.
+# All basic keys work, but e.g. function keys (F1..F12) and any special keys will probably not work.
+# TODO: Merge back stuff from Android's original Generic.k* files to get these things straight. 
+#
+
+key 1     ESCAPE
+key 2     1
+key 3     2
+key 4     3
+key 5     4
+key 6     5
+key 7     6
+key 8     7
+key 9     8
+key 10    9
+key 11    0
+key 12    MINUS
+key 13    GRAVE
+key 14    DEL
+key 15    TAB
+key 16    X
+key 17    V
+key 18    L
+key 19    C
+key 20    W
+key 21    K
+key 22    H
+key 23    G
+key 24    F
+key 25    Q
+# TODO
+#key 26    ESZETT
+#key 27    ACUTE_ACCENT
+key 26 BUTTON_15
+key 27 BUTTON_16
+key 28    ENTER
+key 29    CTRL_LEFT
+key 30    U
+key 31    I
+key 32    A
+key 33    E
+key 34    O
+key 35    S
+key 36    N
+key 37    R
+key 38    T
+key 39    D
+key 40    Y
+# TODO
+#key 41    CIRCUMFLEX_ACCENT
+key 41 BUTTON_14
+key 42    SHIFT_LEFT
+# Use SHIFT_RIGHT as Neo2 Mod3 xxx No destinction in left xxx right modifier keys xxx (TODO xxx use SYMBOL instead)
+#key 43    BACKSLASH
+key 43    SHIFT_RIGHT # SYMBOL
+# TODO
+#key 44    U_UMLAUT
+#key 45    O_UMLAUT
+#key 46    A_UMLAUT
+key 44 BUTTON_13
+key 45 BUTTON_12
+key 46 BUTTON_11
+key 47    P
+key 48    Z
+key 49    B
+key 50    M
+key 51    COMMA
+key 52    PERIOD
+key 53    J
+# Use SHIFT_RIGHT as Neo2 Mod3 xxx use SHIFT_LEFT as Mod2 (Shift)
+#key 54    SHIFT_RIGHT
+key 54    SHIFT_LEFT
+# not applicable to Asus Tranformer Pad TF300T Mobile Docking keyboard
+# Use SEARCH for ALT_LEFT
+key 217   ALT_LEFT
+key 57    SPACE
+#key 58    CAPS_LOCK
+key 58    SHIFT_RIGHT
+# not applicable to Asus Tranformer Pad TF300T Mobile Docking keyboard
+#key 59    F1
+#key 60    F2
+#key 61    F3
+#key 62    F4
+#key 63    F5
+#key 64    F6
+#key 65    F7
+#key 66    F8
+#key 67    F9
+#key 68    F10
+key 69    NUM_LOCK
+key 70    SCROLL_LOCK
+key 86    FUNCTION
+#key 87    F11
+#key 88    F12
+key 238   F1
+key 237   F2
+key 60    F3
+key 224   F4
+key 225   F5
+key 61    F6
+key 212   F7
+key 150   F8
+key 62    F9
+key 165   F10
+key 164   F11
+key 163   F12
+key 89    RO
+key 96    ENTER
+key 97    CTRL_RIGHT
+key 98    NUMPAD_DIVIDE
+key 99    SYSRQ
+#key 100   ALT_RIGHT
+key 100   FUNCTION
+# key 101 "KEY_LINEFEED"
+key 102   MOVE_HOME
+key 103   DPAD_UP
+key 104   PAGE_UP
+key 105   DPAD_LEFT
+key 106   DPAD_RIGHT
+key 107   MOVE_END
+key 108   DPAD_DOWN
+key 109   PAGE_DOWN
+key 110   INSERT
+key 111   FORWARD_DEL
+# key 112 "KEY_MACRO"
+#key 113   VOLUME_MUTE
+#key 114   VOLUME_DOWN
+#key 115   VOLUME_UP
+key 113   VOLUME_MUTE
+key 114   VOLUME_DOWN
+key 115   VOLUME_UP
+key 116   POWER             WAKE
+key 117   NUMPAD_EQUALS
+# key 118 "KEY_KPPLUSMINUS"
+key 119   BREAK
+# key 120 (undefined)
+key 122   KANA
+key 123   EISU
+key 124   YEN
+#key 125   META_LEFT
+key 125   CAPS_LOCK #ALT_LEFT
+key 126   META_RIGHT
+#key 127   MENU              WAKE_DROPPED
+key 127   CAPS_LOCK
+key 128   MEDIA_STOP
+key 139   MENU              WAKE_DROPPED
+key 140   CALCULATOR
+#key 142   POWER             WAKE
+# Use SLEEP as FORWARD_DEL
+key 142   FORWARD_DEL
+key 143   POWER             WAKE
+#key 150   EXPLORER
+key 152   POWER             WAKE
+key 155   ENVELOPE
+key 156   BOOKMARK
+#key 158   BACK              WAKE_DROPPED
+key 158   ESCAPE
+key 159   FORWARD
+key 160   MEDIA_CLOSE
+key 161   MEDIA_EJECT
+key 162   MEDIA_EJECT
+#key 163   MEDIA_NEXT
+#key 164   MEDIA_PLAY_PAUSE
+#key 165   MEDIA_PREVIOUS
+key 166   MEDIA_STOP
+key 167   MEDIA_RECORD
+key 168   MEDIA_REWIND
+key 169   CALL
+key 171   MUSIC
+key 172   HOME
+key 177   PAGE_UP
+key 178   PAGE_DOWN
+key 200   MEDIA_PLAY
+key 201   MEDIA_PAUSE
+key 207   MEDIA_PLAY
+key 208   MEDIA_FAST_FORWARD
+#key 212   CAMERA
+key 213   MUSIC
+key 215   ENVELOPE
+#key 217   SEARCH
+#key 226   HEADSETHOOK
